@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   background: #F8F8F8;
   width: 100%;
   display: flex;
+  overflow: hidden;
 `;
 
 const Dashboard = () => {

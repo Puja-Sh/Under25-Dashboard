@@ -88,6 +88,11 @@ const Bottom = styled.div`
     margin-right: 10px;
     cursor: pointer;
     outline: none;
+
+    &:hover{
+      background: #F2F2F2;
+    }
+
   }
 
   .filter-btn {

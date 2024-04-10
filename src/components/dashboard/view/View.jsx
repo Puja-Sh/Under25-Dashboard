@@ -9,6 +9,7 @@ import AssignedView from "./allViews/assignedToMe/AssignedView";
 const Wrapper = styled.div`
   width: calc(100% - 320px);
   padding: 20px;
+  margin-bottom: 100px;
 `;
 
 const Header = styled.div`
@@ -33,7 +34,7 @@ const Header = styled.div`
       font-size: 16px;
       display: flex;
       align-items: center;
-      
+
       img {
         width: 16px;
         height: 16px;
@@ -67,17 +68,22 @@ const MainBody = styled.div`
   border-radius: 12px;
   border: 1px solid #F2F2F2;
   background: #FFFFFF;
-  height: fit-content;
   margin-top: 20px;
+  overflow: scroll;
+  height: 100%;
+  margin-bottom: 20px;
 `;
 
 const View = ({ selected }) => {
 
     const getComponent = () => {
         switch (selected) {
-            case 0 : return <MainDashboard/>
-            case 1 : return <OpportunityView/>
-            case 2 : return <AssignedView/>
+            case 0 :
+                return <MainDashboard/>
+            case 1 :
+                return <OpportunityView/>
+            case 2 :
+                return <AssignedView/>
         }
     }
     return (
@@ -91,7 +97,8 @@ const View = ({ selected }) => {
                 }
 
                 <div className='right-side'>
-                    { selected >= 1 && <button className='create-mission-btn'> <img src={add}/> Create Mission</button> }
+                    { selected >= 1 &&
+                        <button className='create-mission-btn'><img src={ add }/> Create Mission</button> }
                     <div className='user-info'>
                         <div>
                             <p>Welcome</p>
@@ -103,7 +110,7 @@ const View = ({ selected }) => {
             </Header>
 
             <MainBody>
-                {getComponent()}
+                { getComponent() }
             </MainBody>
         </Wrapper>
     )

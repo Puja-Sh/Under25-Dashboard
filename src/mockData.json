@@ -9,7 +9,8 @@
     "type": "Internship",
     "openings": 24,
     "location": "Gujrat",
-    "budget": "$1000"
+    "budget": "$1000",
+    "missionStatus": "Completed"
   },
   {
     "name": "Create a Reel for Gujrat Tourism on Instagram",
@@ -21,7 +22,8 @@
     "type": "Giveaway",
     "openings": 30,
     "location": "Gujrat",
-    "budget": "$1500"
+    "budget": "$1500",
+    "missionStatus": "Evaluating"
   },
   {
     "name": "Create a Reel for Gujrat Tourism on Instagram",
@@ -33,7 +35,8 @@
     "type": "Internship",
     "openings": 20,
     "location": "Gujrat",
-    "budget": "$1200"
+    "budget": "$1200",
+    "missionStatus": "Completed"
   },
   {
     "name": "Explore Gujrat’s Beauty on Snapchat",
@@ -45,7 +48,8 @@
     "type": "Internship",
     "openings": 15,
     "location": "Gujrat",
-    "budget": "$800"
+    "budget": "$800",
+    "missionStatus": "Evaluating"
   },
   {
     "name": "Promote Gujrat Tourism on Snapchat",
@@ -57,7 +61,8 @@
     "type": "Giveaway",
     "openings": 25,
     "location": "Gujrat",
-    "budget": "$1300"
+    "budget": "$1300",
+    "missionStatus": "Completed"
   },
   {
     "name": "Showcase Gujrat's Cultural Heritage on Snapchat",
@@ -69,7 +74,8 @@
     "type": "Giveaway",
     "openings": 18,
     "location": "Gujrat",
-    "budget": "$1100"
+    "budget": "$1100",
+    "missionStatus": "Evaluating"
   },
   {
     "name": "Capture the Essence of Gujrat on Instagram",
@@ -81,7 +87,8 @@
     "type": "Internship",
     "openings": 22,
     "location": "Gujrat",
-    "budget": "$900"
+    "budget": "$900",
+    "missionStatus": "Completed"
   },
   {
     "name": "Highlight Gujrat's Hidden Gems on Instagram",
@@ -93,7 +100,8 @@
     "type": "Internship",
     "openings": 28,
     "location": "Gujrat",
-    "budget": "$1400"
+    "budget": "$1400",
+    "missionStatus": "Completed"
   },
   {
     "name": "Discover Gujrat's Natural Wonders on Instagram",
@@ -105,7 +113,8 @@
     "type": "Giveaway",
     "openings": 16,
     "location": "Gujrat",
-    "budget": "$1000"
+    "budget": "$1000",
+    "missionStatus": "Evaluating"
   },
   {
     "name": "Experience Gujrat's Rich History on Snapchat",
@@ -117,7 +126,8 @@
     "type": "Giveaway",
     "openings": 21,
     "location": "Gujrat",
-    "budget": "$1200"
+    "budget": "$1200",
+    "missionStatus": "Completed"
   },
   {
     "name": "Unveil the Beauty of Gujrat on Snapchat",
@@ -129,7 +139,8 @@
     "type": "Internship",
     "openings": 23,
     "location": "Gujrat",
-    "budget": "$1100"
+    "budget": "$1100",
+    "missionStatus": "Completed"
   },
   {
     "name": "Showcase Gujrat's Architectural Marvels on Snapchat",
@@ -141,7 +152,8 @@
     "type": "Internship",
     "openings": 19,
     "location": "Gujrat",
-    "budget": "$1000"
+    "budget": "$1000",
+    "missionStatus": "Evaluating"
   },
   {
     "name": "Explore Gujrat's Magnificent Landscapes on Instagram",
@@ -153,7 +165,8 @@
     "type": "Giveaway",
     "openings": 17,
     "location": "Gujrat",
-    "budget": "$900"
+    "budget": "$900",
+    "missionStatus": "Completed"
   },
   {
     "name": "Promote Gujrat's Tourism on Instagram",
@@ -165,7 +178,8 @@
     "type": "Internship",
     "openings": 26,
     "location": "Gujrat",
-    "budget": "$1300"
+    "budget": "$1300",
+    "missionStatus": "Evaluating"
   },
   {
     "name": "Share Gujrat's Cultural Diversity on Instagram",
@@ -177,7 +191,8 @@
     "type": "Giveaway",
     "openings": 14,
     "location": "Gujrat",
-    "budget": "$800"
+    "budget": "$800",
+    "missionStatus": "Completed"
   },
   {
     "name": "Capture the Essence of Gujrat's Festivals on Snapchat",
@@ -189,7 +204,8 @@
     "type": "Giveaway",
     "openings": 20,
     "location": "Gujrat",
-    "budget": "$1000"
+    "budget": "$1000",
+    "missionStatus": "Completed"
   },
   {
     "name": "Promote Gujrat's Ecotourism on Snapchat",
@@ -201,6 +217,7 @@
     "type": "Internship",
     "openings": 29,
     "location": "Gujrat",
-    "budget": "$1400"
+    "budget": "$1400",
+    "missionStatus": "Evaluating"
   }
 ]

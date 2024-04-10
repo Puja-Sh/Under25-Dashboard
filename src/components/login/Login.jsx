@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import loginIllustration from '../../assets/logins/login-illustration.png';
 import logo from '../../assets/icons/under25-logo.png';
+import microsoft from '../../assets/icons/microsoft.png';
 
 const Wrapper = styled.div`
   display: flex;
@@ -30,6 +31,12 @@ const Container = styled.div`
   justify-content: center;
   padding-left: 33px;
 
+  .btn-image {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }
+
   .logo {
     height: 56px;
     width: 56px;
@@ -46,6 +53,13 @@ const Container = styled.div`
     color: #666666;
   }
 
+  div {
+    margin: 30px 0;
+    
+    p:last-child {
+      margin-top: 10px;
+    }
+  }
   button {
     background: #F8F8F8;
     padding: 16px;
@@ -53,6 +67,9 @@ const Container = styled.div`
     border: 1px solid #E2E2E2;
     font-size: 17px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
@@ -77,7 +94,7 @@ const Login = () => {
                     <p className='text-secondary'> Click on Sign in with microsoft access the mission dashboard </p>
                 </div>
 
-                <button onClick={ loginHandler }> Sign in with Microsoft</button>
+                <button onClick={ loginHandler }> <img src={microsoft} className='btn-image'/> Sign in with Microsoft</button>
             </Container>
 
         </Wrapper>
